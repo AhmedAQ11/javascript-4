@@ -33,7 +33,7 @@
 
 // var letter = "Pakistani";
 
-// var char = letter.charAt(7);
+// var char = letter.indexOf("n");
 // console.log(char);
 
 
@@ -43,7 +43,7 @@
 
 // var lastInd = "hello world";
 
-// var lastChar = lastInd.charAt(9);
+// var lastChar = lastInd.lastIndexOf("l");
 // console.log(lastChar);
 
 
@@ -74,9 +74,9 @@
 
 ////    Q7 /////
 
-// var city = "Hyder to Islam"
+// var city = "Hyderabad"
 
-// city.replace("hyderabad" , "Islamabad");
+// city = city.replace("Hyderabad", "Islamabad");
 
 // console.log(city);
 
@@ -91,8 +91,9 @@
 
 // var message = "Ali and Sami are best friends. They play cricket and football together.";
 
-// message.replace("and" , "&" );
+// message = message.replace( "and" , "&" );
 
+// message = message.replace( "and" , "&" );
 // console.log(message);
 
 
@@ -146,24 +147,79 @@
 // console.log(num1)
 
 
+////   ||||| ////
+
+// var num = 35.36.toString()
+
+// console.log(num , typeof num);
+
+// console.log(num.split(".").join(""));
+
+
+
 
 ////    Q13 /////
 
 // var userFirstName = prompt ("enter your name")
 
 
-// for ( var i = 0 ; i < fi)
+
+
+
+////    Q14 ////
+
+// var bakary = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+
+// var bakary = prompt("Welcome to ABC bakary").toLowerCase();
+
+// console.log(bakary);
+
+// if(bakary === "cake"){
+//     alert("Available");
+// }else if(bakary == "apple pie"){
+//     alert("Available");
+// }else if(bakary == "cookie"){
+//     alert("Available");
+// }else if(bakary == "chips"){
+//     alert("Available");
+// }else if(bakary == "patties"){
+//     alert("Available");
+// }else{
+//     alert("Not Available");
+// }
+
+
+
+////    Q15  /////////////
 
 
 
 
 
 
+/////   Q16 ////
+
+// var university = new String("University of Karachi").split("")
 
 
 
+// console.log(university)
 
 
+
+/////   Q17  //////
+
+
+// var str = prompt ("Enter your input")
+
+// var char = str.charAt(str.length-1)
+
+// console.log(char)
+
+
+
+/////   Q18  //////
 
 
 
@@ -175,7 +231,6 @@
 
 
 /////   CHAPTER 26-30 ///////////
-
 
 /// Q1  /////////
 
